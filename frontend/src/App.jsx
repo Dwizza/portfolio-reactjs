@@ -3,7 +3,7 @@ import Hero from './Hero'
 import Navbar from './navbar'
 import Projects from './Projects'
 import Contact from "./Contact";
-import UseFetch from './useFetch'
+// import UseFetch from './useFetch'
 
 function App() {
   
