@@ -1,7 +1,7 @@
 import useFetchData from "./useFetchdata";
 
 function UseFetch(){
-    const users = useFetchData('http://127.0.0.1:8000/api/users')
+    const users = useFetchData(`${import.meta.env.VITE_API_URL}/api/users`)
     console.log(users);
 
 return (

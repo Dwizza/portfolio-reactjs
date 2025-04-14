@@ -2,7 +2,7 @@ import React from "react";
 import useFetchData from "./useFetchdata";
 
 function  Projects(){
-  const projects = useFetchData('http://127.0.0.1:8000/api/projects')
+  const projects = useFetchData(`${import.meta.env.VITE_API_URL}/api/projects`)
   console.log(projects);
   
   return (
